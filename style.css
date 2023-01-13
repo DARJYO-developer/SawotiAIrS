@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current-moisture-level {
+  margin-bottom: 20px;
+}
+
+#moisture-level {
+  font-weight: bold;
+}
+
+.irrigation-controls {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 0 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#stop-watering {
+  background-color: #f44336;
+}
+
+#stop-watering[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
