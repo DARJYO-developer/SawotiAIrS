@@ -1,0 +1,2 @@
+# SawotiAIrS
+Automatic Irrigation System
